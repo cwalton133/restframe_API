@@ -18,4 +18,4 @@ class Author(models.Model):
         ordering = ['-created_at']
 
     def __str__(self):
-        return self.first_name + " " + self.last_name
+        return self.first_name

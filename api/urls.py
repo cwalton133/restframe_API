@@ -7,8 +7,6 @@ urlpatterns = [
     path('authors/', authors, name='all-authors'),
     path('authors/<int:id>', get_author, name='author'),
     path('authors/create/', create_author, name='create-author'),
-    path('authors/delete/<int : id>/', delete_author, name='delete-author')
-
-
+    path('authors/delete/<int:id>', delete_author, name='delete-author')
 
 ]

@@ -1,9 +1,8 @@
-# import response
 from django.shortcuts import get_object_or_404
 from rest_framework.response import Response
 from rest_framework import status
 from .models import Author
-from .serializer import AuthorSerializer
+from .serializers import AuthorSerializer
 from rest_framework.decorators import api_view
 
 
@@ -12,6 +11,13 @@ from rest_framework.decorators import api_view
 @api_view()
 def main(request):
     return Response({"message": "Hello World", "status": status.HTTP_200_OK})
+
+
+@api_view()
+def authors(request):
+    obj = Author.objects.all()
+    serializer = AuthorSerializer(obj, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)
 
 
 @api_view()

@@ -6,7 +6,7 @@ This project is a RESTful API built using Django and Django REST Framework, aime
 
 ## Technologies Used
 
-Backend Framework: Django 4.x
+Backend Framework: Django 5.1.6
 Database: PostgreSQL (or any other preferred relational database)
 Version Control: Git and GitHub for source code management
 Image Processing: Pillow for handling image uploads
@@ -29,9 +29,10 @@ Ordering: Authors are automatically ordered by the creation date in descending o
 
 API Authentication: (Optional) Secure the API using token-based authentication.
 
-Requirements
+## Requirements
+
 Python 3.6 or higher
-Django 3.x or higher
+Django 4x or higher
 Django REST Framework 3.x or higher
 Pillow (for image handling)
 
@@ -44,6 +45,9 @@ cd restframe_api
 
 Create a virtual environment(recommended)
 python -m venv venv
+
+## Ativate your Environement
+
 source venv/bin/activate # On Windows use
 `venv\Scripts\activate`
 
@@ -61,7 +65,8 @@ python manage.py runserver
 
 Navigate to http://127.0.0.1:8000/ in your web browser to access the API.
 
-API Endpoints
+## API Enpoints:
+
 Authors
 Base URL: /api/authors/
 
@@ -118,7 +123,8 @@ The authors are ordered by creation date in descending order.
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Acknowledgments
+## Acknowledements:
+
 Django
 Django REST Framework
 PostgreSQL
@@ -129,9 +135,10 @@ Pillow
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 1. Fork the repository.
-2. Create your feature branch (git checkout -b feature/AmazingFeature). 3. Commit your changes (git commit -m 'Add some AmazingFeature').
-3. Push to the branch (git push origin feature/AmazingFeature).
-4. Open a pull request.
+2. Create your feature branch (git checkout -b feature/AmazingFeature).
+3. Commit your changes (git commit -m 'Add some AmazingFeature').
+4. Push to the branch (git push origin feature/AmazingFeature).
+5. Open a pull request.
 
 ## Contact
 
@@ -140,5 +147,3 @@ For any questions or feedback, please contact:
 Charles Walton - cwalton1335@gmail.com
 GitHub: cwalton133
 Thank you for checking out the Products Application!
-
-:

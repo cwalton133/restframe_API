@@ -38,7 +38,7 @@ Pillow (for image handling)
 
 Installation
 Clone the repository:
-git clone https://github.com/cwalton133/restframe_api.git
+git clone https://github.com/cwalton133/restframe_Api.git
 
 Navigate to the project directory:
 cd restframe_api
